@@ -23,7 +23,7 @@ O campo “Nome da mãe” exibe o rótulo sobreposto dentro do campo de preench
 
 ## 📷 Evidência
 
-Veja a imagem no diretório `/evidencias/bug-nome-mae.png`
+Veja a imagem no diretório (https://github.com/Fmarcelino33/qa-bug-reports/blob/main/BUG%20-%20USABILIDADE.png)
 
 ## 🔧 Recomendação
 
