@@ -1,36 +1,38 @@
-# 🐞 Modelo de Relatório de Bug
+# 🐞 Relatório de Bug – Site da Polícia Federal (ePol SINIC)
 
-**Data:** [DD/MM/AAAA]  
-**Sistema:** [URL do sistema]  
-**Ambiente:** [Navegador e versão / Sistema Operacional / Tipo de dispositivo]  
-**Autor:** [Seu nome]
+**Data:** 15/05/2025  
+**Sistema:** https://servicos.pf.gov.br/epol-sinic-publico/  
+**Ambiente:** Chrome 124.0 / Windows 10 / Desktop  
+**Autor:** Francisco Marcelino  
 
 ## 🎯 Problema
 
-[Descreva o erro de forma clara e objetiva, incluindo onde ocorre e em que situação.]
+O campo “Nome da mãe” exibe o rótulo sobreposto dentro do campo de preenchimento, confundindo o usuário quanto ao local e ao conteúdo esperado.
 
 ## 💥 Impacto
 
-- [Descreva o(s) impacto(s) para o usuário ou sistema]
-- [Pode incluir riscos de acessibilidade, confiabilidade, usabilidade, etc.]
+- Preenchimento incorreto de dados
+- Prejuízo à usabilidade
+- Risco de submissão de informações inválidas
 
 ## 🧪 Passos para Reproduzir
 
-1. [Passo 1]
-2. [Passo 2]
-3. [Passo 3]
-...
+1. Acesse: https://servicos.pf.gov.br/epol-sinic-publico/  
+2. Vá até a seção “Dados Gerais”  
+3. Observe o campo “Nome da mãe”
 
 ## 📷 Evidência
 
-[Descreva ou aponte para o diretório com prints, vídeos ou gravações.]
+Veja a imagem no diretório `/evidencias/bug-nome-mae.png`
 
 ## 🔧 Recomendação
 
-[Inclua sugestões técnicas ou de usabilidade que podem mitigar o bug.]
+- Corrigir o posicionamento do rótulo para fora do campo (placeholder ou label flutuante)
+- Testar responsividade e acessibilidade (modo escuro, tabulação etc.)
 
-## 📌 Prioridade: [Baixa | Média | Alta]
+## 📌 Prioridade: Alta
 
 ---
 
-> Relatório gerado como prática de testes exploratórios, com foco em melhoria contínua da experiência do usuário.
+> Relatório produzido como prática de teste exploratório com foco em usabilidade e acessibilidade.
+
